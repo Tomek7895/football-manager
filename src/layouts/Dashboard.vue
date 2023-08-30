@@ -1,13 +1,11 @@
 <template>
-  <h1>DASHBOARD VIEW</h1>
+    <MainNav />
+    <h1 class="d-flex justify-center">DASHBOARD VIEW</h1>
 </template>
 
 <script>
+import MainNav from '@/components/MainNav.vue'
 export default {
-
+    components: { MainNav }
 }
 </script>
-
-<style>
-
-</style>
