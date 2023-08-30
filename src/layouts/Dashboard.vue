@@ -1,6 +1,8 @@
 <template>
     <MainNav />
-    <h1 class="d-flex justify-center">DASHBOARD VIEW</h1>
+    <v-main>
+        <router-view />
+    </v-main>
 </template>
 
 <script>
