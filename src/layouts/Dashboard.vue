@@ -1,5 +1,6 @@
 <template>
     <MainNav />
+    <TopMenu />
     <v-main>
         <router-view />
     </v-main>
@@ -7,7 +8,8 @@
 
 <script>
 import MainNav from '@/components/MainNav.vue'
+import TopMenu from '@/components/TopMenu.vue'
 export default {
-    components: { MainNav }
+    components: { MainNav, TopMenu }
 }
 </script>
